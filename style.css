@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Righteous&family=Space+Mono:wght@700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.logo {
+  max-width: 220px;
+}
+div.logo img {
+  max-width: 100%;
+}
+header {
+  width: 100%;
+}
+
+header div#top_navbar {
+  transition: background-color 500ms;
+}
+
+header div#top_navbar nav {
+  display: flex;
+  padding: 25px 15px;
+}
+
+header div#top_navbar nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header div#top_navbar nav ul li a {
+  text-decoration: none;
+  padding: 25px 15px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Lalezar", system-ui;
+  font-size: 20px;
+}
+header div#top_navbar:hover {
+  backdrop-filter: blur(100px);
+  background-color: rgba(0, 0, 0, 0.317);
+  transition: backdrop-filter 500ms,;
+}
+.logIn {
+  margin-left: 500px;
+  background-color: #bd3a32;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 15px;
+  transition: background-color 500ms;
+  text-shadow: 1px 1px 1px black;
+}
+.logIn a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lalezar", system-ui;
+}
+.main {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  padding: 80px 200px 0 0;
+}
+.name {
+  font-size: 124px;
+  text-shadow: 5px 5px 1px black;
+}
+.desc {
+  width: 50%;
+  color: white;
+  font-family: "Righteous", sans-serif;
+  font-size: 24px;
+}
+.desc h4 {
+  text-align: center;
+  text-shadow: 1px 2px 1px black;
+}
+.btn {
+  margin: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Righteous", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 18px;
+}
+.btn.red {
+  background-color: #bd3a32;
+}
+.btn.gray {
+  background-color: gray;
+}
